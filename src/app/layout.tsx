@@ -1,4 +1,5 @@
 import { ThemeProvider } from "@/components/Theme/theme-provider";
+import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
@@ -28,7 +29,7 @@ export default function RootLayout({
         <main className="relative flex flex-col min-h-screen ">
         <Navbar/>
         <div className="flex-grow flex-1" >{children} </div>
-        
+        <Footer/>        
         </main>
         </ThemeProvider>
         </body>
