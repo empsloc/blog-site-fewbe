@@ -14,8 +14,8 @@ const Comment=()=>{
                 </div>
             </div>
             <div className="my-10 flex flex-col gap-7">
-                <div className="flex  gap-2 items-center gap-5">
-                    <div className="h-10 w-10 relative"><Image className="rounded-full" src="/nature.jpg " alt="" fill/></div>
+                <div className="flex  items-center gap-5">
+                    <div className="h-10 w-10 relative rounded-full"><Image className="rounded-full" src="/nature.jpg " alt="" fill/></div>
                     <div className="">
                         <div className="text-lg font-semibold">John Doe</div>
                         <div className="text-sm ">20-10-2023</div>
@@ -29,8 +29,8 @@ const Comment=()=>{
             </div>
 
             <div className="my-10 flex flex-col gap-7">
-                <div className="flex  gap-2 items-center gap-5">
-                    <div className="h-10 w-10 relative"><Image className="rounded-full" src="/nature.jpg " alt="" fill/></div>
+                <div className="flex  items-center gap-5">
+                    <div className="h-10 w-10 relative rounded-full "><Image className="rounded-full" src="/nature.jpg " alt="" fill/></div>
                     <div className="">
                         <div className="text-lg font-semibold">John Doe</div>
                         <div className="text-sm ">20-10-2023</div>
@@ -44,8 +44,8 @@ const Comment=()=>{
             </div>
 
             <div className="my-10 flex flex-col gap-7">
-                <div className="flex  gap-2 items-center gap-5">
-                    <div className="h-10 w-10 relative"><Image className="rounded-full" src="/nature.jpg " alt="" fill/></div>
+                <div className="flex  items-center gap-5">
+                    <div className="h-10 w-10 relative rounded-full"><Image className="rounded-full" src="/nature.jpg " alt="" fill/></div>
                     <div className="">
                         <div className="text-lg font-semibold">John Doe</div>
                         <div className="text-sm ">20-10-2023</div>
